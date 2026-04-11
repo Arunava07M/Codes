@@ -1,0 +1,114 @@
+# =========================
+# macOS & System Files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Trashes
+.fseventsd/
+.Spotlight-V100/
+
+# =========================
+# Editors (Neovim & VS Code)
+# =========================
+# Neovim / Vim swap and undo files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+*~
+undo/
+
+# VS Code workspace settings
+.vscode/
+
+# =========================
+# C++ / Competitive Programming
+# =========================
+# Compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.out
+a.out
+*.app
+
+# Mac specific debug symbols
+*.dSYM/
+
+# Build systems
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.jar
+*.war
+hs_err_pid*
+target/
+.gradle/
+.idea/
+
+# =========================
+# Python (General)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Secrets & Environment Variables
+.env
+
+# =========================
+# Python (AI / Machine Learning / Data Science)
+# =========================
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Datasets (Never push raw massive datasets to GitHub)
+data/
+datasets/
+*.csv
+*.tsv
+*.dat
+*.parquet
+*.tfrecord
+
+# Saved Models & Weights (Heavy files)
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.keras
+*.onnx
+*.pkl
+*.joblib
+*.safetensors
+saved_models/
+models/
+
+# Experiment Logs & Caches (TensorBoard, wandb, HuggingFace)
+logs/
+runs/
+wandb/
+mlruns/
+.cache/
+.huggingface/

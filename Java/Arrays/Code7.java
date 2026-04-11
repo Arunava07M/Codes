@@ -1,0 +1,25 @@
+//Largest Array
+import java.util.Scanner;
+
+public class Code7 {
+    public static int largestnumber(int numbers[]){
+        int b = Integer.MIN_VALUE;// -infinity
+        for(int i = 0; i < numbers.length; i++){
+            if(numbers[i] > b){
+                b = numbers[i];
+            }
+        }
+        return b;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int numbers[] = {1,2,6,3,5};
+
+        int index = largestnumber(numbers);
+        System.out.println("The largest number is = " + index);
+        // we can write this print statement without unsing index as
+        //System.out.println("The largest number is = " + largestnumber(numbers));
+
+        sc.close();
+    }
+}
