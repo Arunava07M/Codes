@@ -14,7 +14,7 @@ int main(){
     //space after \n
 
     cout << "Arunava Mukherjee " << "Hello" << endl;
-    //space after Mukherjee before closeing the bracket gave you the output at 
+    //space after Mukherjee before closing the bracket gave you the output at 
     //Arunava Mukherjee Hello
     //if after Mukherjee you did not gave space before ending the quote it would have looked
     //like...Output:-
