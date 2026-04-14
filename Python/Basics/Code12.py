@@ -1,4 +1,4 @@
-#avaerage of two numbers
+#calculate avaerage of two numbers
 
 a = float(input("a: "))
 b = float(input("b: "))
