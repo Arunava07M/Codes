@@ -4,5 +4,6 @@
 
 a = float(input("a :"))
 b = int(a)
-print("integer part = ",int(a))
-print("fractional part = ", (a - b))
+
+print("integer part = ", b)
+print("fractional part = ", round(a - b, 2)) #round function and the 2 controls the output
