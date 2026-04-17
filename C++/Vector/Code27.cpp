@@ -32,3 +32,35 @@ int main(){
     cout << "Maximum amount of water that can be stored = " << maxAmount << endl;
     return 0;
 }
+
+/*My Code
+#include<iostream>
+#include<algorithm>
+#include<vector>
+#include<climits>
+using namespace std;
+
+void water(vector<int>& nums){
+    int n = nums.size();
+    int d = 0;
+    int start = 0;
+    int end = n - 1;
+    while(start < end){
+        int f = 0;
+        if(nums[start] > nums[end]){
+            f = (end - start) * (nums[end]);
+            end--;
+        }
+        else{
+            f = (end - start) * (nums[start]);
+            start++;
+        }
+        d = max(d,f);
+    }
+    cout << "max amount of water container can hold is = " << d << " liters" << endl;
+    
+}
+int main(){
+    vector<int> a = {1,8,6,2,5,4,8,3,7};
+    water(a);
+}*/
