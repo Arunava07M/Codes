@@ -30,3 +30,38 @@ int main() {
 
     return 0;
 }
+/* My Code
+#include<iostream>
+#include<algorithm>
+#include<vector>
+#include<climits>
+using namespace std;
+
+void pairsum(vector<int> nums){
+    int n = nums.size();
+    sort(nums.begin(),nums.end());
+    int f = n/2;
+    int g = 0;
+    int d = 1;
+    for(int i = 0; i <= n - 1; i++){
+        if(i == n-1){
+            break;
+        }
+        if(nums[i] != nums[i + 1]){
+            d = 1;
+        }
+        else{
+            d++;
+        }
+        if(f < d){
+            f = d;
+            g = i;
+        }
+    }
+    return nums[g];
+}
+int main(){
+    vector<int> a = {2,2,1,1,2,2};
+    int target = 22;
+    pairsum(a);
+}*/
