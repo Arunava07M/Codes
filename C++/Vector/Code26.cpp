@@ -39,3 +39,33 @@ int main(){
     cout << "Maximum amount of water in the container = " << maxAmount << endl;
     return 0;
 }
+
+/*
+#include<iostream>
+#include<algorithm>
+#include<vector>
+#include<climits>
+using namespace std;
+
+void water(vector<int>& nums){
+    int n = nums.size();
+    int d = 0;
+    for(int i = 0; i <= n - 1; i++){
+        for(int j = i + 1; j <= n - 1; j++){
+            int f = 0;
+            if(nums[i] > nums[j]){
+                f = nums[j] * (j - i);
+            }
+            else{
+                f = nums[i] * (j - i);
+            }
+            d = max(d,f);
+        }
+    }
+    cout << "max amount of water container can hold is = " << d << " liters" << endl;
+    
+}
+int main(){
+    vector<int> a = {1,8,6,2,5,4,8,3,7};
+    water(a);
+}*/
