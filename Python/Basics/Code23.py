@@ -1,4 +1,4 @@
-counter = 5
+counter = 5 #iterator
 
 while(counter > 0):
     print("hello world")
