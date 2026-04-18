@@ -1,3 +1,4 @@
+#count no of Is
 n = "artificial intelligence"
 
 count = 0
