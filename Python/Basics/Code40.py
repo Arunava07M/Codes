@@ -1,4 +1,4 @@
-def avg(a,b,c): #you can do c = 3 also if you pass avg(a,b)....
+def avg(a,b,c = 5): #c is not overriden by 5
     avg = (a+b+c)/3
     return avg
 
