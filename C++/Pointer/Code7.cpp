@@ -18,5 +18,12 @@ int main(){
     cout << ptr2 - ptr1 << endl;// 108 - 100 = 8 8 means 2 bytes so answer is 2
 
     cout << (ptr2 > ptr1) << endl;//1 means yes means true 0 means no means false
+
+    int a = 10;
+    int* b = &a;
+    b++;
+    cout << *(b) << endl;
+    b--;
+    cout << *(b) << endl;
     return 0;
 }
