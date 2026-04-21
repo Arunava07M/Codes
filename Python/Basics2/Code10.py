@@ -19,3 +19,7 @@ print(marks)
 marks.reverse()
 
 print(marks)
+
+marks.reverse()
+
+print(marks)
