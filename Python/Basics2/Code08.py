@@ -14,3 +14,4 @@ for i in marks:
 marks[2] = 70
 
 print(marks[2])
+print(marks[3])
