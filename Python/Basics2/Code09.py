@@ -8,4 +8,5 @@ print(marks[5:7])
 print(marks[-2:])
 print(marks[5:])
 print(marks[5:len(marks)])
+print(marks[:])
 
