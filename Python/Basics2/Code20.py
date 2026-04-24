@@ -19,3 +19,7 @@ s2 = {2,3,4,5,6,7}
 print(s.union(s1))
 
 print(s.intersection(s2))
+
+s.pop()
+
+print(s)
