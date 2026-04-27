@@ -1,18 +1,19 @@
-def prime(f):
-    if(a <= 1):
+def prime(b):
+    if(b <= 1):
         return False
-    if(a == 2):
+    if(b == 2):
         return True
-    for i in range(2,(a-1)):
-        if(a % i == 0):
+    for j in range(2, b):
+        if(b % j == 0):
             return False
         
     return True
 
 def primeRange(a):
-    for i in range(1,a):
+    for i in range(1, a + 1):
         if(prime(i)):
-            print(i," ")
+            print(i, end=" ")
+    print()
 
 
 a = int(input("a = "))
