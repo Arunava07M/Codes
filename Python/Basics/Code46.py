@@ -1,3 +1,4 @@
+#prime number
 def prime(n):
     d = 0
     if(n <= 1):
