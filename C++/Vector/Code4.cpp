@@ -15,5 +15,5 @@ int main(){
 
     cout << "Size = " << vec.size() << endl;
     cout << "Capacity = " << vec.capacity() << endl;
-    return 0;
+    return 1;
 }
