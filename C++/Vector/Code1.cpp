@@ -10,5 +10,5 @@ int main(){
     cout << vec[0] << endl;
     //3) vector<int> vec(3,0); here 3 is size and 
     //printing vec[0] or vec[1] or vec[2] will give 0
-    
+    return 0;
 }
