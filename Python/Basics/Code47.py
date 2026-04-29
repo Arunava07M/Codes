@@ -1,4 +1,4 @@
-#prime number rang 
+#prime number range
 def prime(b):
     if(b <= 1):
         return False
