@@ -4,5 +4,5 @@ def factorial(n):
         d = d * n
         n -= 1
     print(d)
-
+a = int(input("a = "))
 factorial(5)
