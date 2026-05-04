@@ -5,4 +5,4 @@ def factorial(n):
         n -= 1
     print(d)
 a = int(input("a = "))
-factorial(6)
+factorial(a)
