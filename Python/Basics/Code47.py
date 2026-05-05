@@ -6,7 +6,7 @@ def prime(b):
         return True
     for j in range(2, b):
         if(b % j == 0):
-            return true
+            return False
         
     return True
 
