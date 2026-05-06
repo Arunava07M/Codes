@@ -8,7 +8,7 @@ def prime(b):
         if(b % j == 0):
             return False
         
-    return True
+    return False
 
 def primeRange(a):
     for i in range(1, a + 1):
