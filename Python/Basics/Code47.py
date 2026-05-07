@@ -14,7 +14,7 @@ def primeRange(a):
     for i in range(1, a + 1):
         if(prime(i)):
             print(i, end=" ")
-    print()
+    print(
 
 
 a = int(input("a = "))
