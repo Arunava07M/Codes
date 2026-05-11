@@ -6,3 +6,5 @@ def factorial(n):
     print(d)
 a = int(input("a = "))
 factorial(a)
+a = factorial(5)
+print(a)
